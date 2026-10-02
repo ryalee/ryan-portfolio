@@ -77,5 +77,20 @@ export const projects = [
        "Zustand",
        "Framer Motion"
     ]
+  },
+  {
+    id: 7,
+    title: "Central Riff",
+    description: "Kit de Ferramentas All-in-One para Guitarristas",
+    github: "https://github.com/ryalee/central-riff",
+    webPlaceholder: "Ver na web",
+    webLink: "https://central-riff.vercel.app/",
+    image: "/images/projects/central-riff.png",
+    stack: [
+       "Next", 
+       "TypeScript", 
+       "Tailwind CSS",
+       "Web Audio API",
+    ]
   }
 ];
