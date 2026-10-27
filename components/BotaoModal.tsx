@@ -26,7 +26,7 @@ export default function BotaoContato({ label, icon, className, onClick }: BotaoM
     <>
       <button
         onClick={handleClick}
-        className={`bg-foreground flex justify-around w-60 py-3 px-6 rounded-[15px] text-textDark text-[14pt] hover:scale-105 duration-300 transition cursor-pointer shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] ${className}`}
+        className={`flex justify-around w-60 py-3 px-6 rounded-[15px] text-textLight text-[14pt] hover:scale-105 duration-300 transition cursor-pointer bg-black shadow-[4px_4px_0px_0px_#cfcfcf] ${className}`}
       >
         {label}
         {icon}

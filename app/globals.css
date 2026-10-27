@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #464646;
-  --foreground: #DDD8D4;
+  --background: #262424;
+  --foreground: #cfcfcf;
   --text-dark: #464646;
   --text-light: #DDD8D4;
   --text-alt: #909090; 
@@ -22,7 +22,6 @@ html {
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
   font-family: var(--font-mono);
 }

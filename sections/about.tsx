@@ -59,10 +59,10 @@ export default function About() {
         <div className="md:w-[40%]">
           <p className="text-textAlt">/* quem sou eu? */</p>
 
-          <div className="md:text-[18pt] mt-4">
+          <div className="md:text-[18pt] mt-4 bg-black p-5 rounded-md">
             <p className="">
-              Me chamo Ryan, sou bacharelando em Engenharia de
-              Software e desenvolvedor fullstack.
+              Me chamo Ryan, sou Engenheiro de
+              Software e Desenvolvedor FullStack.
               <br />
             </p>
             <br />

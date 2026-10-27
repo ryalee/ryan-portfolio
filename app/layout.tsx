@@ -19,7 +19,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="pt-br"
       className={`${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <div className="fixed inset-0 -z-10 bg-radial from-[#0b1a02] via-[#0d0d0d] to-[#000000]"></div>
+        {children}
+      </body>
     </html>
   );
 }

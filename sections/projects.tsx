@@ -15,7 +15,7 @@ function ProjectCard({ item }: { item: (typeof projects)[0] }) {
   };
 
   return (
-    <div className="flex flex-col justify-between mx-auto bg-textLight text-textDark p-8 gap-3 md:w-[80%] rounded-xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:scale-105 duration-500 h-180">
+    <div className="flex flex-col justify-between mx-auto bg-black text-textLight p-8 gap-3 md:w-[80%] rounded-xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:scale-105 duration-500 h-180">
       <div className="flex flex-col gap-3">
         <p className="md:text-xl font-bold">{item.title}</p>
         <p className="text-xs md:text-lg">{item.description}</p>
@@ -73,7 +73,7 @@ function ProjectCard({ item }: { item: (typeof projects)[0] }) {
           href={item.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 hover:text-black duration-300"
+          className="flex items-center gap-2 hover:text-white duration-300"
         >
           <Image
             src="/images/projects/github.png"
@@ -88,7 +88,7 @@ function ProjectCard({ item }: { item: (typeof projects)[0] }) {
           href={item.webLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex w-full items-center gap-2 hover:text-black duration-300"
+          className="flex w-full items-center gap-2 hover:text-white duration-300"
         >
           <Image
             src="/images/projects/web.png"

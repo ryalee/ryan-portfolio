@@ -22,24 +22,56 @@ export default function Hero() {
           <p>+4 anos de XP como freelancer</p>
         </div>
 
-        <a 
-          href="/curriculo-ryan_alecrim_sodre.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex mt-10 justify-center md:justify-start"
-        >
-          <Botao
-            label="Meu Currículo"
-            icon={
-              <Image
-                src="/images/hero/attach.png"
-                alt="attach"
-                width={25}
-                height={25}
-              />
-            }
-          />
-        </a>
+        <div className="flex md:items-center md:justify-start gap-5 mt-4">
+          <a 
+            href="/currículo_RYAN-ALECRIM-SODRE.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex w-[25%]"
+          >
+            <Botao
+              label="Meu Currículo"
+              icon={
+                <Image
+                  src="/images/hero/attach.png"
+                  alt="attach"
+                  width={25}
+                  height={25}
+                />
+              }
+            />
+          </a>
+
+          <a href="https://www.linkedin.com/in/ryan-alecrim-sodre/" target="_blank" rel="noopener noreferrer" className="flex w-[25%]">
+            <Botao
+              label="LinkedIn"
+              icon={
+                <Image
+                  src="/images/contact/linkedin.png"
+                  alt="linkedin"
+                  width={25}
+                  height={25}
+                />
+              }
+              className="bg-blue-800"
+            />
+          </a>
+
+          <a href="https://github.com/ryalee" target="_blank" rel="noopener noreferrer" className="flex w-[25%]">
+            <Botao
+              label="GitHub"
+              icon={
+                <Image
+                  src="/images/contact/github.png"
+                  alt="github"
+                  width={25}
+                  height={25}
+                />
+              }
+              className="bg-gray-950"
+            />
+          </a>
+        </div>
       </div>
 
       <Image

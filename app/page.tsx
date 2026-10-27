@@ -50,7 +50,7 @@ export default function Home() {
         </nav>
 
         <a
-          href="/curriculo-ryan_alecrim_sodre.pdf"
+          href="/currículo_RYAN-ALECRIM-SODRE.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex justify-center md:justify-start w-[50%] md:w-60"
@@ -100,22 +100,7 @@ export default function Home() {
         <Stack />
         <div className="w-full h-px self-center bg-foreground rounded-full my-22"></div>
         <Contact />
-      </main>
-
-      <footer className="bg-textLight w-full h-25 flex flex-col items-center justify-center gap-4 py-6">
-        <p className="text-textDark text-[10pt]">
-          {" "}
-          &lsaquo;&rsaquo;{" "}
-          <a
-            href="https://www.linkedin.com/in/ryan-alecrim-sodre/"
-            target="_blank"
-            className="underline text-blue-900 text-center hover:text-blue-700 duration-300"
-          >
-            Ryan Alecrim Sodre
-          </a>{" "}
-          | {new Date().getFullYear()} &lsaquo;&frasl;&rsaquo;{" "}
-        </p>
-      </footer>
+      </main> 
     </>
   );
 }
