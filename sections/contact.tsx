@@ -32,7 +32,7 @@ const social = [
   {
     id: 5,
     icon: "/images/contact/PDF.png",
-    link: "/curriculo_ryan-alecrim-sodre.pdf",
+    link: "/RYAN-ALECRIM-SODRE_CURRICULO.pdf",
     title: "Meu currículo",
   },
 ];
