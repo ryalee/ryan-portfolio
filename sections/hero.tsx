@@ -24,7 +24,7 @@ export default function Hero() {
 
         <div className="flex md:items-center md:justify-start gap-5 mt-4">
           <a 
-            href="/currículo_RYAN-ALECRIM-SODRE.pdf"
+            href="/RYAN-ALECRIM-SODRE_CURRICULO.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex w-[25%]"
